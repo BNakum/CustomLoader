@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var customProgressView = CustomProgressView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        addProgress()
+    }
+    
+    
+    func addProgress() {
+        customProgressView = CustomProgressView(frame: CGRect(x: 0, y:100, width: UIScreen.mainScreen().bounds.size.width, height:  250))
+        view.addSubview(customProgressView)
+    }
 }
 

@@ -12,6 +12,7 @@
 		605852861D4508290042410A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605852841D4508290042410A /* Main.storyboard */; };
 		605852881D4508290042410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605852871D4508290042410A /* Assets.xcassets */; };
 		6058528B1D4508290042410A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605852891D4508290042410A /* LaunchScreen.storyboard */; };
+		605852931D4509460042410A /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605852921D4509460042410A /* CustomProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		605852871D4508290042410A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6058528A1D4508290042410A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6058528C1D4508290042410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605852921D4509460042410A /* CustomProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				605852801D4508290042410A /* AppDelegate.swift */,
 				605852821D4508290042410A /* ViewController.swift */,
+				605852921D4509460042410A /* CustomProgressView.swift */,
 				605852841D4508290042410A /* Main.storyboard */,
 				605852871D4508290042410A /* Assets.xcassets */,
 				605852891D4508290042410A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				605852831D4508290042410A /* ViewController.swift in Sources */,
 				605852811D4508290042410A /* AppDelegate.swift in Sources */,
+				605852931D4509460042410A /* CustomProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
