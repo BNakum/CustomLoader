@@ -65,7 +65,7 @@ class CustomProgressView: UIView {
         backgroundColor = UIColor.grayColor()
         progress = 0.1
         
-        let _ = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(increaseProgress), userInfo: nil, repeats: true)
+        let _ = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: #selector(increaseProgress), userInfo: nil, repeats: true)
     }
     
     func circleFrame() -> CGRect {
@@ -80,6 +80,6 @@ class CustomProgressView: UIView {
     }
     
     func increaseProgress() {
-        progress = (progress + 0.1)
+        progress = (progress + 0.05)
     }
 }
